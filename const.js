@@ -19,7 +19,7 @@ const text3 = `
 const text4 = `
 Полный курс C++: <a href ="https://www.youtube.com/watch?v=V58rHMUVmDU">C++</a>
 `
-
+const text5 = `Ютуб канал JavaScript <a href = "https://www.youtube.com/c/VladilenMinin">JavaCourse</a>`
 
 
 
