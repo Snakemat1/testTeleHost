@@ -24,6 +24,24 @@ bot.command('language', async (ctx) => {
     }
 })
 
+bot.command('ychannel', async (ctx) => {
+    try {
+        await ctx.replyWithHTML('<b>ютуб каналы</b>', Markup.inlineKeyboard(
+            [
+                [Markup.button.callback('javascript', 'btn_5'), Markup.button.callback('python', 'btn_6')],
+                [Markup.button.callback('java', 'btn_7'), Markup.button.callback('C++', 'btn_8  ')]
+
+
+
+
+            ]
+
+        ))
+    } catch (e) {
+        console.error(e)
+    }
+})
+
 
 function addActionBot(name, src, text) {
     bot.action(name, async (ctx) => {
